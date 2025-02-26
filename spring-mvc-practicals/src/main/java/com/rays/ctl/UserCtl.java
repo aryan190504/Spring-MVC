@@ -132,6 +132,10 @@ public class UserCtl {
 				}
 			}
 		}
+		
+		if(operation.equals("add")) {
+			return "redirect:/User";
+		}
 
 		form.setPageNo(pageNo);
 
